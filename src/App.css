@@ -1,38 +1,68 @@
-.App {
-  text-align: center;
+/* Neon link hover effect */
+.neon-link {
+  color: #0ff !important;
+  transition: all 0.3s ease-in-out;
+  text-shadow: 0 0 5px #0ff, 0 0 10px #0ff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.neon-link:hover {
+  color: #fff !important;
+  text-shadow: 0 0 10px #0ff, 0 0 20px #0ff, 0 0 30px #0ff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Neon header text */
+.neon-text {
+  color: #0ff;
+  text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 20px #0ff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Glassmorphism cards (for forms & products) */
+.card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.App-link {
-  color: #61dafb;
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 25px rgba(0, 255, 255, 0.4);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Buttons */
+.btn-info {
+  background: linear-gradient(90deg, #00fff7, #00bfff);
+  border: none;
+  color: #000;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.btn-info:hover {
+  background: linear-gradient(90deg, #00bfff, #00fff7);
+  color: #fff;
+  box-shadow: 0 0 15px #00fff7;
+}
+
+/* Inputs */
+.form-control {
+  background: rgba(255,255,255,0.1) !important;
+  color: #0ff !important;
+  border: 1px solid #0ff !important;
+}
+
+.form-control:focus {
+  background: rgba(255,255,255,0.15) !important;
+  border: 1px solid #00fff7 !important;
+  box-shadow: 0 0 10px #00fff7;
+  color: #fff !important;
+  outline: none;
+}
+
+/* Background gradient */
+body {
+  background: radial-gradient(circle at top left, #0f2027, #203a43, #2c5364);
+  font-family: 'Orbitron', sans-serif;
+  color: #0ff;
 }
