@@ -32,7 +32,7 @@ function Footer() {
             </ul>
           </div>
 
-          {/* CONTACT / INFO */}
+          {/* CONTACT */}
           <div className="col-md-4 mb-4">
             <h5 style={{ color: "#00e5ff" }}>Contact</h5>
             <p className="mb-1">Email: masaitrevis@nextbotics.com</p>
@@ -44,35 +44,30 @@ function Footer() {
 
         <hr style={{ borderColor: "rgba(0,255,255,0.2)" }} />
 
-        {/* SOCIALS SECTION */}
+        {/* SOCIALS */}
         <div className="text-center mt-3">
 
           <h5 style={{ color: "#00e5ff" }}>Follow Us</h5>
 
           <div className="d-flex justify-content-center gap-4 mt-3">
 
-            {/* Facebook */}
-            <a href="#" style={{ color: "#fff", fontSize: "20px" }}>
+            <a href="https://facebook.com" target="_blank" rel="noreferrer" style={{ color: "#fff", fontSize: "20px" }}>
               <i className="bi bi-facebook"></i>
             </a>
 
-            {/* Instagram */}
-            <a href="#" style={{ color: "#fff", fontSize: "20px" }}>
+            <a href="https://instagram.com" target="_blank" rel="noreferrer" style={{ color: "#fff", fontSize: "20px" }}>
               <i className="bi bi-instagram"></i>
             </a>
 
-            {/* Twitter/X */}
-            <a href="#" style={{ color: "#fff", fontSize: "20px" }}>
+            <a href="https://twitter.com" target="_blank" rel="noreferrer" style={{ color: "#fff", fontSize: "20px" }}>
               <i className="bi bi-twitter-x"></i>
             </a>
 
-            {/* GitHub */}
-            <a href="#" style={{ color: "#fff", fontSize: "20px" }}>
+            <a href="https://github.com" target="_blank" rel="noreferrer" style={{ color: "#fff", fontSize: "20px" }}>
               <i className="bi bi-github"></i>
             </a>
 
-            {/* LinkedIn */}
-            <a href="#" style={{ color: "#fff", fontSize: "20px" }}>
+            <a href="https://linkedin.com" target="_blank" rel="noreferrer" style={{ color: "#fff", fontSize: "20px" }}>
               <i className="bi bi-linkedin"></i>
             </a>
 
